@@ -6,7 +6,7 @@
 # app = Flask(__name__)
 # CORS(app)  # Enable CORS for frontend
 
-# GROQ_API_KEY = "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"
+# GROQ_API_KEY = "API_KEY"
 # GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 # @app.route('/api/debate', methods=['POST'])
