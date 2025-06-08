@@ -1,0 +1,93 @@
+.debate-container {
+    max-width: 700px;
+    margin: auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f8f9ff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.6rem;
+    margin: 0.5rem 0 1rem 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .debater-section {
+    margin-bottom: 1.5rem;
+  }
+  
+  .style-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .tag {
+    background-color: #e0e7ff;
+    color: #333;
+    border: 1px solid #8da2fb;
+    padding: 5px 12px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .tag button {
+    margin-left: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #444;
+  }
+  
+  .submit-btn {
+    padding: 0.7rem 1.2rem;
+    background: #4c6ef5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  .submit-btn:disabled {
+    background: #888;
+    cursor: not-allowed;
+  }
+  
+  .chat-output {
+    margin-top: 2rem;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 1rem;
+    max-height: 500px;
+    overflow-y: auto;
+    border: 1px solid #dce0f0;
+  }
+  
+  .chat-bubble {
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 12px;
+    max-width: 80%;
+    word-wrap: break-word;
+  }
+  
+  .chat-bubble.left {
+    background-color: #e7f0ff;
+    align-self: flex-start;
+  }
+  
+  .chat-bubble.right {
+    background-color: #ffe0e0;
+    align-self: flex-end;
+    text-align: right;
+  }
+  
